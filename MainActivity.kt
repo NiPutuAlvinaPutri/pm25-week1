@@ -23,7 +23,7 @@ class MainActivity : AppCompatActivity() {
             displayText.text = if (inputText.isNotEmpty()) {
                 "Hallo, $inputText"
             } else {
-                "Hallo,Tanpa Nama!"
+                "Hallo,Tanpa Nama! Silahkan Masukkan Nama Anda!"
             }
             displayText.visibility = TextView.VISIBLE // Menampilkan teks setelah tombol ditekan
         }
